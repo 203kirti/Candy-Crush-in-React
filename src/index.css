@@ -1,0 +1,39 @@
+body{
+  background-color: #202124;
+}
+.app {
+  display: flex;
+  padding: 30px;
+}
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #325874;
+  box-shadow: 0 0 10 px rgba(0 , 0 , 0 ,0.5);
+  border-radius: 2%;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+.score-card {
+  margin: 12px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border-radius: 2px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Additional styling for the score board */
+}
+
+.score-card h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  /* Additional styling for the score text */
+}
